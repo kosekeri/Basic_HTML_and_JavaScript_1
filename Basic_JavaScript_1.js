@@ -1,1 +1,15 @@
-alert("Hello, World! I am an alert box!");
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="My_First_Function()">
+Click me!
+</button>
+<p id="Click on the buttom below to change color"></p>
+<script>
+function My_First_Function(){
+document.getElementById("Click on the buttom below to change the color").innerHTML =
+result;
+}
+</script>
+</body>
+</html>
